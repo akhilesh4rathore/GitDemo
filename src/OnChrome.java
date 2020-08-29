@@ -15,6 +15,7 @@ public class OnChrome {
 		System.out.println("Master Project");
 		System.out.println("Lines added in cloned project.");
 		System.out.println("Lines added in cloned project.");
+		System.out.println("Lines added on branch_1 in original project.");
 		
 		//FROM
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1")).click();
