@@ -12,6 +12,7 @@ public class OnChrome {
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		driver.manage().window().maximize();
+		System.out.println("Master Project");
 		
 		//FROM
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1")).click();
